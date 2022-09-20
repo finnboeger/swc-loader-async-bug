@@ -1,0 +1,8 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "esNext",
+    "moduleResolution": "node",
+  }
+}
