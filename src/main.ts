@@ -7,4 +7,4 @@ async function b(x: string[], y: string[]): Promise<void> {
   console.log(...x, ...y);
 }
 
-(async () => b(await a(), await a()))().then();
+(async () => b("foo", await a()))().then();
